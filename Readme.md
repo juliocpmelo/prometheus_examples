@@ -13,4 +13,4 @@ docker build -t prometheus .
 ```
 docker run -p 9090:9090 prometheus
 ```
-3. Once the container is running, run [example.py](example.py). I've added a simple counter and gauge for example purposes.
+3. Once the container is running, install requirements.txt and run [example.py](example.py). I've added a simple counter and gauge for example purposes.
