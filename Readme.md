@@ -2,8 +2,7 @@
 
 To use this example you will need docker
 
-1. Edit [prometheus.yml::9](prometheus.yml) with the ip address of your local host. On wsl2 I got this with `ip addr show`, this is needed
-since docker wont recogineze (obviously) localhost as the ip that runs the python example.
+1. Edit [prometheus.yml::9](prometheus.yml) with the port used by your application.
 2. Build the docker image, which will copy the prometheus.yml to the docker env. I my case I 
 wasn't able to get it working using -v option that is listed on the examples due to wsl2 issues.
 ```
